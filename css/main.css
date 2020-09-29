@@ -1,0 +1,168 @@
+body{
+    font-family:sans-serif;
+    color:#777777;
+    line-height:26px;
+    align-items:center;
+    justify-content: center;
+}
+
+    .main-container{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  background: url(https://r-cf.bstatic.com/images/hotel/max1280x900/517/51772890.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+    text-align:left;
+}
+
+
+ .purple-color{
+    color:#8845f4;
+    font-weight:bold;
+ }
+ .half-width{
+     width:50%;
+     float:left;
+     padding-bottom:10px;
+ }
+ .side-img{
+     width:50%;
+     padding-left:25%;
+ }
+ .primary-btn{
+     color:white;
+     background-color:#8845f4;
+     padding:13px 42px;
+     border-radius:20px;
+     text-decoration:none;
+ }
+ .centered {
+  position: absolute;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:yellow;
+  font-family:web-safe;
+  animation: 5s fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+ h1{
+     font-size:2.5em;
+ }
+ .container{
+     padding:70px;
+     display:inline-block;
+ }
+ .experiences{
+     padding:10px;
+     margin:30px;
+     background-color:rgb(238,251,255);
+     border-radius:20px; 
+      animation: 5s fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}   
+ }
+ .experience-item{
+     padding:10px;
+     border-left:1px solid rgba(137,130,247,.2);
+     display: flex;
+ }
+.destinations .grid li {
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.destinations .grid li.small {
+    flex-basis: 30%;
+}
+
+.destinations .grid li.large {
+    flex-basis: 70%;
+}
+
+@media (max-width: 1100px) {
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 50%;
+    }
+
+}
+full-w
+
+@media (max-width: 800px) {
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 100%;
+    }
+
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #354457;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+
+}
+
+footer li {
+    margin-left: 16px;
+    color: black;
+    background-color: white;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: 0.6;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+  
+
+
+ 
+ 
